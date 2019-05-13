@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1557393512 source:c:\users\hung\documents\observerdp\main.cpp
+	<iostream>
+	"EVN.h"
+	"Customer.h"
+	"Household.h"
+	"Business.h"
+	"SolarRooftopIndividual.h"
+
+1557326991 c:\users\hung\documents\observerdp\include\evn.h
+	"Customer.h"
+	<vector>
+
+1557328297 c:\users\hung\documents\observerdp\include\customer.h
+	<string>
+
+1557328191 c:\users\hung\documents\observerdp\include\household.h
+	<string>
+	"EVN.h"
+	<Customer.h>
+
+1557384521 c:\users\hung\documents\observerdp\include\business.h
+	<string>
+	"EVN.h"
+	<Customer.h>
+
+1557384377 c:\users\hung\documents\observerdp\include\solarrooftopindividual.h
+	<Customer.h>
+	<string>
+	"EVN.h"
+
+1557326991 source:c:\users\hung\documents\observerdp\src\customer.cpp
+	"Customer.h"
+
+1557393398 source:c:\users\hung\documents\observerdp\src\evn.cpp
+	"EVN.h"
+
+1557738471 source:c:\users\hung\documents\observerdp\src\business.cpp
+	"Business.h"
+	<string>
+	<iostream>
+
+1557738471 source:c:\users\hung\documents\observerdp\src\household.cpp
+	"Household.h"
+	<iostream>
+	<string>
+
+1557387578 source:c:\users\hung\documents\observerdp\src\solarrooftopindividual.cpp
+	"SolarRooftopIndividual.h"
+	<string>
+	<iostream>
+
